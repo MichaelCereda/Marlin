@@ -435,7 +435,7 @@
   #endif
 #endif
 
-//#define Z_DUAL_STEPPER_DRIVERS
+// #define Z_DUAL_STEPPER_DRIVERS
 #if ENABLED(Z_DUAL_STEPPER_DRIVERS)
   //#define Z_DUAL_ENDSTOPS
   #if ENABLED(Z_DUAL_ENDSTOPS)
@@ -1644,7 +1644,7 @@
   #endif
 
   #if AXIS_IS_TMC(Z)
-    #define Z_CURRENT     800
+    #define Z_CURRENT     733
     #define Z_MICROSTEPS   16
     #define Z_RSENSE     0.11
   #endif
